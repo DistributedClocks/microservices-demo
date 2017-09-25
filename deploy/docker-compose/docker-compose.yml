@@ -1,5 +1,6 @@
 version: '2'
-
+env:
+  - MYSQL_ROOT_PASSWORD=distclocks
 services:
   front-end:
     image: weaveworksdemos/front-end
